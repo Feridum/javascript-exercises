@@ -1,0 +1,29 @@
+{
+  "name": "javascript-exercises",
+  "version": "0.0.1",
+  "description": "Simple exercises for JavaScript newbies",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "exercises/**/*.js"
+    ],
+    "failFast": true,
+    "serial": true,
+    "watch": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feridum/javascript-exercises.git"
+  },
+  "author": "Aleksander Patschek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Feridum/javascript-exercises/issues"
+  },
+  "homepage": "https://github.com/Feridum/javascript-exercises#readme",
+  "dependencies": {
+    "ava": "^3.12.1"
+  }
+}
