@@ -1,7 +1,7 @@
 const test = require('ava');
 
 // Replace expected value (0) with true/false value
-test('Array Modifiers: pop, shift, push, unshift', t => {
+test('Equality operator: == vs ===', t => {
     t.deepEqual(1 == '1', 0)
     t.deepEqual(1 === '1', 0)
     t.deepEqual(null == 0, 0)
